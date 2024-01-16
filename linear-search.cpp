@@ -1,6 +1,16 @@
 #include<iostream>
 using namespace std;
 
+/*bool keypresent(int arr[], int length, int key)
+{
+    if(length==0)
+    return false;
+
+    if(key==*(arr))
+        return true;
+    else
+        return keypresent(arr+1,length-1,key);
+}*/
 bool keypresent(int arr[], int length, int key)
 {
     if(length==0)
